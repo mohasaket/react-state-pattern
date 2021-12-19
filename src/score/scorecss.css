@@ -1,0 +1,36 @@
+.bord-template {
+  padding: 24px;
+  height: 135px;
+  width: 400px;
+  background-color: blueviolet;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid whitesmoke;
+}
+.score-text {
+  background-color: black;
+  color: azure;
+  font-size: 52px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-group {
+  display: flex;
+  justify-content:space-between;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.button-single {
+  width: 45%;
+  height: 52px;
+  background-color: sandybrown;
+  outline: none;
+  text-align: center;
+  padding: 16px;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+}
